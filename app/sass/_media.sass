@@ -1,0 +1,207 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+  body
+    font-size: 14px
+      letter-spacing: .35px
+  #logo
+    img
+      max-width: 100%
+  header
+    font-size: 16px
+    letter-spacing: .4px
+  #search
+    width: 200px
+
+  .phone-callBack-search
+    padding-top: 15px
+  #cart
+    margin-top: 10px
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+  .banner-info-item__text
+    font-size: 14px
+  .slider-stock__title
+    h1
+      font-size: 17.5px
+      span
+        font-size: 30px
+  .banner-row
+    flex-wrap: wrap
+    justify-content: center
+  .product__btn-wrapper
+    display: block
+  .banner-item
+    margin: 15px
+    max-width: 200px
+  #cart
+    position: absolute
+    right: 0
+    top: 12px
+    color: white
+    z-index: 5
+    &:hover
+      color: white
+    .btn
+      &:hover
+        color: white
+
+    svg
+      fill: white
+      path
+        fill: white
+  .empty-cart
+    display: none
+  #menu
+    position: fixed
+    background: $blue
+    top: 0
+    left: 100%
+    width: 100%
+    height: 100%
+    z-index: 999
+    overflow: auto
+    transition: .5s
+    ul
+      display: block
+      a
+        display: block
+        padding: 20px
+        border-bottom: 1px solid rgba(white,.2)
+  .callBack
+    margin-left: 0
+  #logo
+    img
+      max-width: 151px
+      width: 100%
+  #searchWW
+    float: right
+  .phone-callBack-search
+    padding-left: 70px
+  .phone-callBack-search > .flex
+    justify-content: space-between
+  .phone-callBack-search > .flex > .flex
+    display: block
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  .t-w-content
+    border-radius: 0
+  .footer__links
+    ul
+      &:nth-child(1)
+        margin-left: 0
+  .footer__logo
+    display: block
+    text-align: center
+    margin-bottom: 25px
+  .banner-info-items
+    display: block
+  .banner-info-item
+    text-align: center
+    margin: auto
+    &:nth-child(2)
+      margin: 40px auto
+  .banner-item
+    max-width: 100%
+    width: 100%
+    justify-content: flex-start
+    &:last-child
+      justify-content: flex-start
+      p
+        width: 100%
+  .banner-item__img
+    width: 55px
+  .phone-callBack-search > .flex
+    justify-content: flex-end
+  .mobile-menu-text
+    display: none
+  .phone-callBack-search
+    padding-left: 0
+    text-align: right
+    text-align: right
+  .phones > .flex
+    justify-content: flex-end
+  .phones
+    margin-bottom: 10px
+  .btn--phone
+    padding: 0
+    margin-left: 10px
+  .review
+    padding: 0 20px
+  .reviews__title
+    margin-bottom: 0
+    h2
+      text-align: center
+  .reviews__btns
+    .flex
+      flex-wrap: wrap
+      flex-direction: column-reverse
+    .reviews__btn
+      width: 100%
+      margin: 10px auto
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  #logo
+    margin-top: 15px
+  .btn-filter
+    width: 100%
+  .product__info
+    font-size: 14px
+  .product__img img
+    height: 80px
+  .product__btn
+    width: 100%
+  .footer__links
+    ul
+     a
+       font-size: 16px
+  .reviews__title
+    h2
+      font-size: 18px
+      letter-spacing: .45px
+  .title
+    font-size: 18px
+    letter-spacing: .45px
+  .callBack span
+    font-size: 14px
+  .t-w-content .tab
+    font-size: 17px
+/**/
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	.mobile-menu
+      display: none
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+  .container
+    width: 1200px
+
