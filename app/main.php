@@ -88,7 +88,7 @@
 
                               <div class="row">
                                   <div class="col-xs-12 center-block">
-                                      <button class="btn btn-filter">
+                                      <button class="btn  btn-filter btn--green">
                                           Подобрать
                                       </button>
                                   </div>
@@ -167,7 +167,7 @@
 
                               <div class="row">
                                   <div class="col-xs-12 center-block">
-                                      <button class="btn btn-filter">
+                                      <button class="btn  btn-filter btn--green">
                                           Подобрать
                                       </button>
                                   </div>
@@ -251,7 +251,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 center-block">
-                                        <button class="btn btn-filter">
+                                        <button class="btn btn-filter btn--green">
                                             Подобрать
                                         </button>
                                     </div>
@@ -320,7 +320,7 @@
 
                                 <div class="row">
                                     <div class="col-xs-12 center-block">
-                                        <button class="btn btn-filter">
+                                        <button class="btn btn-filter btn--green">
                                             Подобрать
                                         </button>
                                     </div>
@@ -390,7 +390,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -409,7 +409,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -428,7 +428,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -472,7 +472,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -542,7 +542,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -561,7 +561,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -580,7 +580,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -605,7 +605,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -624,7 +624,7 @@
                             <span class="currency">грн</span>
                         </div>
                         <div class="product__btn-wrapper">
-                            <a href="#" class="product__btn">Подобрать</a>
+                            <a href="#" class="product__btn btn--green">Подобрать</a>
                         </div>
                     </div>
                 </div>
@@ -681,7 +681,7 @@
                     <div class="reviews__title">
                         <h2>Отзывы клиентов <span>(22)</span></h2>
                     </div>
-                    <div class="reviews">
+                    <div class="reviews reviews-main">
 
 
                         <div class="review">

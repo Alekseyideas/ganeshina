@@ -84,10 +84,15 @@ $('.slider-stock').owlCarousel({
 
 function SliderReviews() {
     if ($(window).width() < 768) {
-        var divs = $(".review");
-        for (var i = 0; i < divs.length; i += 2) {
-            divs.slice(i, i + 2).wrapAll("<div class='new'></div>");
-        }
+        var reviews = function reviews(div, count) {
+            var divs = $(div + ' .review');
+            for (var i = 0; i < divs.length; i += count) {
+                divs.slice(i, i + count).wrapAll("<div class='new'></div>");
+            }
+        };
+
+        reviews('.reviews-main', 2);
+        reviews('.reviews-product', 1);
 
         $('.reviews').addClass('owl-carousel');
         $('.reviews').owlCarousel({
@@ -115,4 +120,28 @@ $('.btn-close').click(function () {
         'left': '100%'
     });
     $('html').css('overflow', 'auto');
+});
+
+$('.thumbnails--small').click(function () {
+    var img = $(this).find('img').attr('src');
+    $('.main-image img').attr('src', img);
+});
+
+$('.product__review-star i').click(function () {
+    var value = $(this).data('value');
+    $('#stars-value').val(value);
+    $('.product__review-star i').removeClass('fa-star').addClass('fa-star-o');
+    for (var i = 0; i < value; i++) {
+        $('.product__review-star i:nth-child(' + (i + 1) + ')').removeClass('fa-star-o').addClass('fa-star');
+    }
+});
+
+$('.product__description-read-more').click(function () {
+    $(this).hide();
+    $('.product__description--hide').show();
+});
+
+$('.bnt-show-product-review-form').click(function () {
+    $('.product__review-form').show();
+    $(this).hide();
 });
